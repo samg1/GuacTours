@@ -1,0 +1,44 @@
+.navbar{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-content: center;
+    border-bottom: 5px black;
+
+
+    img{
+        width: auto;
+    }
+
+
+    ul{
+        list-style-type: none;
+        display:flex;
+        flex: 1;
+        align-items: center;
+        align-content: center;
+        margin: 0px;
+        padding: 0px;
+        li{
+            flex:1;
+            border-right: 4px black;
+            text-align: center;
+        }
+    }
+
+    a{
+        font-weight: 200;
+        line-height: 14px;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+}
+
+.fondo{
+    background-color: #292222;
+    background-image: linear-gradient(315deg, #292222 0%, #DDD6F3 69%, #ffffff 91%);
+    height:100vh;
+    width:100%;
+
+}
